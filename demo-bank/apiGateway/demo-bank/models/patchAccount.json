@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "ssn": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "accountPin": {
+      "type": "integer"
+    }
+  },
+  "anyOf": [
+    {
+      "required": [
+        "firstName"
+      ]
+    },
+    {
+      "required": [
+        "lastName"
+      ]
+    },
+    {
+      "required": [
+        "ssn"
+      ]
+    },
+    {
+      "required": [
+        "dob"
+      ]
+    },
+    {
+      "required": [
+        "phone"
+      ]
+    },
+    {
+      "required": [
+        "email"
+      ]
+    },
+    {
+      "required": [
+        "accountPin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+  {
+   "firstName": "John",
+    "lastName": "Doe",
+    "ssn": "123-45-6789",
+    "dob": "01/01/2000",
+    "phone": "2123456789",
+    "email": "abc@abc.com",
+    "initialBalance": 20000.0,
+    "accountPin": 12345
+  }

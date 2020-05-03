@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "ssn": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "initialBalance": {
+      "type": "number"
+    },
+    "accountPin": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "firstName",
+    "lastName",
+    "ssn",
+    "dob",
+    "phone",
+    "email",
+    "initialBalance",
+    "accountPin"
+  ]
+}
